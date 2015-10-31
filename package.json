@@ -1,20 +1,20 @@
 {
-  "name": "ecma6",
+  "name": "ecma_next",
   "version": "1.0.0",
-  "description": "- node 4.2\r - babeljs",
+  "description": "- node 5\r - babeljs",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/N4Works/ecma6.git"
+    "url": "git+https://github.com/N4Works/ecma_next.git"
   },
-  "author": "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)",
+  "author": [
+    "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/N4Works/ecma6/issues"
+    "url": "https://github.com/N4Works/ecma_next/issues"
   },
-  "homepage": "https://github.com/N4Works/ecma6#readme",
-  "dependencies": {
-    "babel": "^5.8.23"
-  }
+  "homepage": "https://github.com/N4Works/ecma_next#readme",
+  "dependencies": {}
 }

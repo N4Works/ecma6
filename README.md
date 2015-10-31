@@ -1,44 +1,46 @@
-# Environment configuration
+# Configuracao necessaria
 
-- node 4.2
-- babeljs
+- node 5
+- babeljs 5.8
 
-# ES6 - NodeJS
+# Instalacao
 
-- Block scoping
-- let (strict mode only)
-- const
-- function-in-blocks (strict mode only)
-- Classes (strict mode only)
-- Collections
-- Map
-- WeakMap
-- Set
-- WeakSet
-- Typed arrays
-- Generators
-- Binary and Octal literals
-- Object literal extensions (shorthand properties and methods)
-- Promises
-- New String methods
-- Symbols
-- Template strings
-- Arrow Functions
+Download do node:
 
-# ES6 - BabelJS
+https://nodejs.org/en/
 
-- es6.arrowFunctions
-- es6.blockScoping
-- es6.classes
-- es6.constants
-- es6.destructuring
-- es6.forOf
-- es6.modules
-- es6.parameters
-- es6.properties.computed
-- es6.properties.shorthand
-- es6.spread
-- es6.tailCall
-- es6.templateLiterals
-- es6.regex.unicode
-- es6.regex.sticky
+
+### Download do babel:
+
+`
+$ npm i -g babel@5
+`
+
+### Download do typescript:
+
+`
+$ npm i -g typescript
+`
+
+
+# Rodando os exemplos
+
+### Node:
+
+`
+$ node node/INSIRA_O_NOME_DO_ARQUIVO_AQUI.js
+`
+
+
+### Babel:
+
+`
+$ babel-node babel/INSIRA_O_NOME_DO_ARQUIVO_AQUI.js
+`
+
+
+### Typescript:
+
+`
+$ ts-node typescript/INSIRA_O_NOME_DO_ARQUIVO_AQUI.ts
+`
